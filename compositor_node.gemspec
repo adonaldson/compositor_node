@@ -30,6 +30,7 @@ The intention of this library is to make it easy to build up a structure of node
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "compositor_node.gemspec",
     "lib/compositor_node.rb",
     "lib/compositor_node/blender.rb",
     "lib/compositor_node/config.rb",
