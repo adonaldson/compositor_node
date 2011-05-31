@@ -17,8 +17,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "compositor_node"
   gem.homepage = "http://github.com/dies-el/compositor_node"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Ruby library that provides a framework for node-based composition of images.}
+  gem.description = %Q{Node based composition:
+http://en.wikipedia.org/wiki/Digital_compositing#Node-based_and_layer-based_compositing
+
+The intention of this library is to make it easy to build up a structure of nodes which will then be output to a flat file. Imagine using this library as part of a web-app that makes it easy to manipulate images in a structured, visual way (without say, Photoshop).}
   gem.email = "andrew@desto.net"
   gem.authors = ["Andrew Donaldson"]
   # dependencies defined in Gemfile
