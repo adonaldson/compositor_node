@@ -15,7 +15,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "compositor_node"
-  gem.homepage = "http://github.com/dies-el/compositor_node"
+  gem.homepage = "http://github.com/adonaldson/compositor_node"
   gem.license = "MIT"
   gem.summary = %Q{Ruby library that provides a framework for node-based composition of images.}
   gem.description = %Q{The intention of this library is to make it easy to build up a structure of nodes which will then be output to a flat file. Imagine using this library as part of a web-app that makes it easy to manipulate images in a structured, visual way (without say, Photoshop).}
