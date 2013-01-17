@@ -1,5 +1,7 @@
 = Compositor Node
 
+(This is an old and unloved gem - use at your risk!)
+
 Node based composition:
 http://en.wikipedia.org/wiki/Digital_compositing#Node-based_and_layer-based_compositing
 

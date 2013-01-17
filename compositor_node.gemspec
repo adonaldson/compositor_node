@@ -4,20 +4,16 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{compositor_node}
-  s.version = "0.1.0"
+  s.name = "compositor_node"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andrew Donaldson"]
-  s.date = %q{2011-05-31}
-  s.description = %q{Node based composition:
-http://en.wikipedia.org/wiki/Digital_compositing#Node-based_and_layer-based_compositing
-
-The intention of this library is to make it easy to build up a structure of nodes which will then be output to a flat file. Imagine using this library as part of a web-app that makes it easy to manipulate images in a structured, visual way (without say, Photoshop).}
-  s.email = %q{andrew@desto.net}
+  s.date = "2013-01-17"
+  s.description = "The intention of this library is to make it easy to build up a structure of nodes which will then be output to a flat file. Imagine using this library as part of a web-app that makes it easy to manipulate images in a structured, visual way (without say, Photoshop)."
+  s.email = "andrew@desto.net"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README",
     "README.rdoc"
   ]
   s.files = [
@@ -26,7 +22,6 @@ The intention of this library is to make it easy to build up a structure of node
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README",
     "README.rdoc",
     "Rakefile",
     "VERSION",
@@ -43,11 +38,11 @@ The intention of this library is to make it easy to build up a structure of node
     "spec/compositor_node_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/dies-el/compositor_node}
+  s.homepage = "http://github.com/dies-el/compositor_node"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.5.0}
-  s.summary = %q{Ruby library that provides a framework for node-based composition of images.}
+  s.rubygems_version = "1.8.23"
+  s.summary = "Ruby library that provides a framework for node-based composition of images."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
